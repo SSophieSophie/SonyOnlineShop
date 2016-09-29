@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>check</title>
+	<meta charset="utf-8" />
+	<script type="text/javascript" src = "../jquery-1.10.1.min.js"></script>
+	    <script type="text/javascript" src = "../Jquery_animation.js"></script>
+	    <script type="text/javascript" src = "../perfect_startMove.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(window).on("scroll",function(){
+				var scrollTop = $(window).scrollTop();
+				var viewHeight = $(document.body).height();
+				alert($(window).height())
+				//document.title=scrollTop
+				if(scrollTop >= 46){
+					$("div").animate({top:parseInt(scrollTop + (viewHeight - 100) / 2), right:30})
+					//$("div").css({display:"block";})
+				}else{
+					//$("div").css({display:"none"})
+				}
+				//alert("ss")
+			})
+		})
+	</script>
+</head>
+<body style = "height:1000px;">
+	<div style="width:50px; height: 100px; position: absolute; right:0; top:0;background: red; display: block;"></div>
+</body>
+</html>
+
+
+
+
+
+

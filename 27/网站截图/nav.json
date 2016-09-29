@@ -1,0 +1,49 @@
+{
+  "_data": [
+    {
+      "title": "视频游戏机",
+      "_id": 0,
+      "item": [
+        "PlayStation®4",
+        "PlayStation®Vita",
+        "PlayStation®配件"
+      ],
+      "link": "http://www.baidu.com"
+    },
+    {
+      "title": "家庭影像产品",
+      "_id": 1,
+      "item": [
+        "液晶电视机",
+        "Blu-rayDiscTM/DVD播放器",
+        "4K播放器"
+      ],
+      "link": "http://www.baidu.com"
+    },
+    {
+      "title": "智能手机及周边",
+      "_id": 2,
+      "item": [
+        "XperiaTM智能手机",
+        "XperiaTM智能手机配件"
+      ],
+      "link": "http://www.baidu.com"
+    },
+    {
+      "title": "FES电子手表",
+      "_id": 3,
+      "link": "http://www.baidu.com"
+    },
+    {
+      "title": "便携音频产品",
+      "_id": 4,
+      "item": [
+        "MP4/MP3播放器",
+        "数码录音棒",
+        "耳机",
+        "闹钟收音机"
+      ],
+      "link": "http://www.baidu.com"
+    }
+  ]
+}
